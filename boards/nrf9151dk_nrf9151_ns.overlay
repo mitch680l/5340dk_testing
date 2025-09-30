@@ -18,11 +18,6 @@
     current-speed = <115200>;
 };
 
-&gpio_fwd {
-	uart {
-		status = "disabled";
-	};
-};
 
 &uart1 {
     status = "okay";
@@ -52,5 +47,3 @@
 		};
 	};
 };
-
-
